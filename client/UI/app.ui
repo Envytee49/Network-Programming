@@ -1,0 +1,39 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkWindow" id="main_window">
+    <property name="title">Login</property>
+    <property name="default-width">300</property>
+    <property name="default-height">200</property>
+    <child>
+      <object class="GtkBox" id="login_box">
+        <property name="orientation">vertical</property>
+        <property name="spacing">10</property>
+        <property name="width-request">250</property>  <!-- Đặt kích thước yêu cầu cho box -->
+        <property name="height-request">180</property> <!-- Đặt kích thước yêu cầu cho box -->
+
+        <!-- Trường nhập Email -->
+        <child>
+          <object class="GtkEntry" id="email_entry">
+            <property name="placeholder-text">Email</property>
+          </object>
+        </child>
+
+        <!-- Trường nhập Password -->
+        <child>
+          <object class="GtkEntry" id="password_entry">
+            <property name="placeholder-text">Password</property>
+            <property name="visibility">False</property>
+          </object>
+        </child>
+
+        <!-- Nút Login -->
+        <child>
+          <object class="GtkButton" id="login_button">
+            <property name="label">Login</property>
+          </object>
+        </child>
+
+      </object>
+    </child>
+  </object>
+</interface> -->

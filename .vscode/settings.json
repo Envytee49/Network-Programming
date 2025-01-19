@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "network_utils.h": "c",
+        "typeinfo": "c",
+        "managepaths.h": "c",
+        "sodium.h": "c",
+        "macro_utils.h": "c",
+        "socket.h": "c",
+        "database.h": "c",
+        "system_error": "c"
+    }
+}
